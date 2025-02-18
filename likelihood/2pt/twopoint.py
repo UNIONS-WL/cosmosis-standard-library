@@ -72,6 +72,8 @@ class Types(Enum):
     cmb_kappa_real = "CKR"
     cmb_kappa_fourier = "CKF"
     cmb_kappa_emode_fourier = "CKF"
+    psf_plus_real = "P+R"
+    star_residual_plus_real = "SR+R"
     
     @classmethod
     def lookup(cls, value):
